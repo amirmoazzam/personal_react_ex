@@ -1,5 +1,4 @@
 import React from 'react';
-import {HiArrowNarrowRight} from 'react-icons/hi';
 
 const Home = () => {
   return (
@@ -11,11 +10,11 @@ const Home = () => {
             <h3 className='text-3xl sm:text-5xl font-bold text-[#8892ba]'>personal website</h3>
             <p className='text-[#8892ba] py-4 max-w-[700px] capitalize'>i'm react frontend web developer. i'm a self-thought programmer and i started my work from 2020. it's my pleasure to read more about me in my resume.</p>
             <div>
-                <button className='group text-white font-bold border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-white duration-500'>
-                    view work
-                    <span className='group-hover:rotate-90 duration-300'>
+                <button className='group text-white font-bold border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600 duration-500'>
+                    view works
+                    {/* <span className='group-hover:rotate-90 duration-300'>
                         <HiArrowNarrowRight className='ml-3'/>
-                    </span>
+                    </span> */}
                 </button>
             </div>
         </div>

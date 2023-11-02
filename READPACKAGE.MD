@@ -18,3 +18,4 @@ module.exports = {
 
 <!-- ----------------------------------------- -->
 npm add react-icons
+npm install react-scroll

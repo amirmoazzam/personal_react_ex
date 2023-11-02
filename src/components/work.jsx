@@ -4,7 +4,7 @@ import takwinstore from '../assets/takwinstore/tw1.png'
 const Works = () => {
     const [works,setWorks] = useState([1,2,3,4])
   return (
-    <div name='works' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='works' className='w-full md:h-full text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-orange-600'>works</p>
