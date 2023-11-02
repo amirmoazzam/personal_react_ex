@@ -55,7 +55,7 @@ export const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-800'>
                     <a href="/" className='flex justify-between items-center w-full text-gray-100 pl-2'>
-                    Call <BsFillPersonLinesFill size={30}/>
+                    Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
             </ul>
